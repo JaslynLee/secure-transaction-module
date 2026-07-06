@@ -1,0 +1,342 @@
+{
+  "user": {
+    "name": "Siao Yu Lee",
+    "email": "siaoyu.lee@rytbank.com",
+    "passcode": "123456",
+    "accountNumber": "4820 9318 4098 9842",
+    "savingsBalance": 12845.50,
+    "creditBalance": 3450.20
+  },
+  "transactions": [
+    {
+      "id": "tx-001",
+      "amount": 15.40,
+      "date": "2026-07-05T10:15:00Z",
+      "description": "Starbucks Coffee",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF84029410",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-002",
+      "amount": 2450.00,
+      "date": "2026-07-04T09:00:00Z",
+      "description": "Ryt Bank Monthly Salary",
+      "category": "Income",
+      "type": "credit",
+      "status": "completed",
+      "referenceNumber": "REF29482049",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-003",
+      "amount": 12.50,
+      "date": "2026-07-03T18:30:00Z",
+      "description": "Uber Ride",
+      "category": "Transport",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF04928401",
+      "fee": 0.50
+    },
+    {
+      "id": "tx-004",
+      "amount": 89.90,
+      "date": "2026-07-02T14:20:00Z",
+      "description": "Target Stores",
+      "category": "Shopping",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF94018240",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-005",
+      "amount": 14.99,
+      "date": "2026-07-01T08:00:00Z",
+      "description": "Netflix Subscription",
+      "category": "Subscriptions",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF10492840",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-006",
+      "amount": 120.00,
+      "date": "2026-06-30T11:00:00Z",
+      "description": "City Power & Water",
+      "category": "Utilities",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF92840184",
+      "fee": 1.50
+    },
+    {
+      "id": "tx-007",
+      "amount": 45.00,
+      "date": "2026-06-29T19:15:00Z",
+      "description": "Ramen Nagi Restaurant",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF74920482",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-008",
+      "amount": 500.00,
+      "date": "2026-06-28T10:00:00Z",
+      "description": "Dividends - Apple Inc.",
+      "category": "Investment",
+      "type": "credit",
+      "status": "completed",
+      "referenceNumber": "REF40284019",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-009",
+      "amount": 6.80,
+      "date": "2026-06-27T08:45:00Z",
+      "description": "Public Subway Transit",
+      "category": "Transport",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF39284018",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-010",
+      "amount": 250.00,
+      "date": "2026-06-26T15:30:00Z",
+      "description": "Refund - Amazon Support",
+      "category": "Shopping",
+      "type": "credit",
+      "status": "completed",
+      "referenceNumber": "REF20482048",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-011",
+      "amount": 9.99,
+      "date": "2026-06-25T07:00:00Z",
+      "description": "Spotify Premium",
+      "category": "Subscriptions",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF04829482",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-012",
+      "amount": 75.20,
+      "date": "2026-06-24T12:00:00Z",
+      "description": "Shell Gas Station",
+      "category": "Transport",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF84920481",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-013",
+      "amount": 180.00,
+      "date": "2026-06-23T16:40:00Z",
+      "description": "Nintendo eShop",
+      "category": "Shopping",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF74920492",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-014",
+      "amount": 35.50,
+      "date": "2026-06-22T20:10:00Z",
+      "description": "McDonald's Delivery",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482038",
+      "fee": 2.00
+    },
+    {
+      "id": "tx-015",
+      "amount": 300.00,
+      "date": "2026-06-20T09:30:00Z",
+      "description": "Transfer from Father",
+      "category": "Income",
+      "type": "credit",
+      "status": "completed",
+      "referenceNumber": "REF04820482",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-016",
+      "amount": 15.00,
+      "date": "2026-06-19T14:00:00Z",
+      "description": "App Store - iCloud Storage",
+      "category": "Subscriptions",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20481048",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-017",
+      "amount": 110.00,
+      "date": "2026-06-18T10:15:00Z",
+      "description": "Nike Store Online",
+      "category": "Shopping",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF84029472",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-018",
+      "amount": 45.30,
+      "date": "2026-06-17T11:45:00Z",
+      "description": "Whole Foods Market",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF94028401",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-019",
+      "amount": 55.00,
+      "date": "2026-06-16T08:30:00Z",
+      "description": "Internet Bill - Comcast",
+      "category": "Utilities",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF39284019",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-020",
+      "amount": 200.00,
+      "date": "2026-06-15T15:00:00Z",
+      "description": "Crypto Purchase - Ethereum",
+      "category": "Investment",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF10492847",
+      "fee": 3.50
+    },
+    {
+      "id": "tx-021",
+      "amount": 42.50,
+      "date": "2026-07-05T11:00:00Z",
+      "description": "Trader Joe's (Pending)",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "pending",
+      "referenceNumber": "REF20482099",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-022",
+      "amount": 1500.00,
+      "date": "2026-07-05T12:00:00Z",
+      "description": "Freelance Project Deposit",
+      "category": "Income",
+      "type": "credit",
+      "status": "pending",
+      "referenceNumber": "REF20482100",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-023",
+      "amount": 12.99,
+      "date": "2026-07-06T08:30:00Z",
+      "description": "Netflix Subscription",
+      "category": "Subscriptions",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482101",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-024",
+      "amount": 85.00,
+      "date": "2026-07-06T09:15:00Z",
+      "description": "Electric Bill Payment",
+      "category": "Utilities",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482102",
+      "fee": 1.50
+    },
+    {
+      "id": "tx-025",
+      "amount": 250.00,
+      "date": "2026-07-06T10:00:00Z",
+      "description": "Stock Purchase - AAPL",
+      "category": "Investment",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482103",
+      "fee": 2.99
+    },
+    {
+      "id": "tx-026",
+      "amount": 4.50,
+      "date": "2026-07-06T11:45:00Z",
+      "description": "Starbucks Coffee",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482104",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-027",
+      "amount": 120.00,
+      "date": "2026-07-06T13:20:00Z",
+      "description": "Weekly Grocery Run",
+      "category": "Food & Dining",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482105",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-028",
+      "amount": 30.00,
+      "date": "2026-07-06T14:10:00Z",
+      "description": "Uber Ride",
+      "category": "Transport",
+      "type": "debit",
+      "status": "completed",
+      "referenceNumber": "REF20482106",
+      "fee": 0.50
+    },
+    {
+      "id": "tx-029",
+      "amount": 150.00,
+      "date": "2026-07-06T15:30:00Z",
+      "description": "Birthday Gift from Parents",
+      "category": "Income",
+      "type": "credit",
+      "status": "completed",
+      "referenceNumber": "REF20482107",
+      "fee": 0.00
+    },
+    {
+      "id": "tx-030",
+      "amount": 95.99,
+      "date": "2026-07-06T16:00:00Z",
+      "description": "Running Shoes - Nike",
+      "category": "Shopping",
+      "type": "debit",
+      "status": "pending",
+      "referenceNumber": "REF20482108",
+      "fee": 0.00
+    }
+  ]
+}

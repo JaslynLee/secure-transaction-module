@@ -3,12 +3,25 @@
  * https://docs.expo.dev/guides/color-schemes/
  */
 
+import { useColorScheme } from 'react-native';
+import { useSelector } from 'react-redux';
+import { RootState } from '@/store';
 import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
 
 export function useTheme() {
-  const scheme = useColorScheme();
-  const theme = scheme === 'unspecified' ? 'light' : scheme;
+  const systemScheme = useColorScheme();
+  const themePreference = useSelector((state: RootState) => state.user.themePreference);
 
-  return Colors[theme];
+  const activeScheme =
+    themePreference === 'system'
+      ? (systemScheme === 'dark' ? 'dark' : 'light')
+      : themePreference;
+
+  const colors = Colors[activeScheme];
+
+  return {
+    scheme: activeScheme,
+    themePreference,
+    colors,
+  };
 }

@@ -1,15 +1,14 @@
-import { Redirect } from 'expo-router';
+import { Redirect, Stack } from 'expo-router';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store';
 
-export default function RootIndex() {
+export default function AuthLayout() {
   const { isAuthenticated } = useSelector((state: RootState) => state.auth);
 
-  // If user is logged in, send them to the protected app area
-  // Otherwise, send them to the login screen
+  // If already authenticated, redirect to the main app area
   if (isAuthenticated) {
     return <Redirect href="/(app)" />;
   }
 
-  return <Redirect href="/login" />;
+  return <Stack screenOptions={{ headerShown: false }} />;
 }
